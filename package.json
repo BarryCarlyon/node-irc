@@ -1,7 +1,7 @@
 {
   "name": "irc",
   "description": "An IRC client library for node",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "author": "Martyn Smith <martyn@dollyfish.net.nz>",
   "scripts": {
     "test": "./node_modules/faucet/bin/cmd.js test/test-*.js",
@@ -31,12 +31,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
-  "licenses": [
-    {
-      "type": "GPL",
-      "url": "http://github.com/martynsmith/node-irc/raw/master/COPYING"
-    }
-  ],
+  "license": "GPL-3.0",
   "dependencies": {
     "irc-colors": "^1.1.0"
   },
